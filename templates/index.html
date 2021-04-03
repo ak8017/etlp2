@@ -29,7 +29,7 @@
           </li>
           <li>
             <a class = "text-secondary text-decoration-none"
-              href="https://arunshamli-etlp.herokuapp.com/authors"
+              href="{{ url_for('authors') }}"
               target="_blank"
             >
               Get All the authors
@@ -37,7 +37,7 @@
           </li>
           <li>
             <a class = "text-secondary text-decoration-none"
-              href="https://arunshamli-etlp.herokuapp.com/authors/Albert%20Einstein"
+               href="{{ url_for('authors/Albert%20Einstein') }}"
               target="_blank"
             >
               Get a particular Author (Albert Einstein)
@@ -45,7 +45,7 @@
           </li>
           <li>
             <a class = "text-secondary text-decoration-none"
-              href="https://arunshamli-etlp.herokuapp.com/tags"
+               href="{{ url_for('tags') }}"
               target="_blank"
             >
               Get All the tags
@@ -54,7 +54,7 @@
 
           <li>
             <a class = "text-secondary text-decoration-none"
-              href="https://arunshamli-etlp.herokuapp.com/tags/love"
+               href="{{ url_for('tags/love') }}"
               target="_blank"
             >
               Get a particualr tag ( love for example)
@@ -63,7 +63,7 @@
 
           <li>
             <a class = "text-secondary text-decoration-none"
-              href="https://arunshamli-etlp.herokuapp.com/top10tags"
+               href="{{ url_for('top10tags') }}"
               target="_blank"
             >
               Get Top 10 Tags
