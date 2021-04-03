@@ -21,7 +21,7 @@
         <ul class="fs-2 ">
           <li >
             <a class = "text-secondary text-decoration-none"
-              href="https://arunshamli-etlp.herokuapp.com/quotes"
+              href="{{ url_for('quotes') }}"
               target="_blank"
             >
               Get All the quotes
@@ -37,7 +37,7 @@
           </li>
           <li>
             <a class = "text-secondary text-decoration-none"
-               href="{{ url_for('authors/Albert%20Einstein') }}"
+               href="{{ url_for('authors/Albert Einstein') }}"
               target="_blank"
             >
               Get a particular Author (Albert Einstein)
